@@ -129,9 +129,13 @@
   <ItemGroup>
     <Content Include="app\view\MasterView.js" />
     <Content Include="EXTJS_Files\AltaEmpleado.js" />
+    <Content Include="EXTJS_Files\app\controller\EmpresasController.js" />
     <Content Include="EXTJS_Files\app\controller\UserController.js" />
+    <Content Include="EXTJS_Files\app\model\EmpresasModel.js" />
     <Content Include="EXTJS_Files\app\model\UserModel.js" />
+    <Content Include="EXTJS_Files\app\store\EmpresasStore.js" />
     <Content Include="EXTJS_Files\app\store\UserStore.js" />
+    <Content Include="EXTJS_Files\app\view\EmpresasView.js" />
     <Content Include="EXTJS_Files\app\view\user\UserGrid.js" />
     <Content Include="EXTJS_Files\ListaEmpleados.js" />
     <Content Include="app\controller\DetailController.js" />
@@ -4258,6 +4262,7 @@
     <Content Include="extjs\resources\themes\images\slate\window\window-default-corners.gif" />
     <Content Include="extjs\resources\themes\images\slate\window\window-default-sides.gif" />
     <Content Include="extjs\resources\themes\stylesheets\neptune\default\accessories\readme.txt" />
+    <Content Include="EXTJS_Files\ListaEmpresas.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -4694,6 +4699,7 @@
     <Content Include="extjs\resources\themes\templates\resources\sass\config.rb" />
     <Content Include="extjs\resources\themes\templates\resources\sass\my-ext-theme.scss" />
     <Content Include="data\data.json" />
+    <Content Include="data\Empresas.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\ext-all.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Accenture",
+    "address": "Tlalpan",
+    "contact": "Victor Resendiz",
+    "telephone": "55-6989-6352"
+  },
+  {
+    "id": "2",
+    "name": "Telcel",
+    "address": "Lago Alberto",
+    "contact": "Gerardo Najera",
+    "telephone": "55-8963-9852"
+  },
+  {
+    "id": "3",
+    "name": "One Digit",
+    "address": "Del Valle",
+    "contact": "Arturo Pimentel",
+    "telephone": "55-9874-8521"
+  }
+]
