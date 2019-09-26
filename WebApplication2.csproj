@@ -127,6 +127,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\view\Master.js" />
     <Content Include="Scripts\Application.js" />
     <Content Include="app\controller\Detail.js" />
     <Content Include="app\model\Person.js" />

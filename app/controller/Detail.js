@@ -2,23 +2,39 @@
     extend: 'Ext.app.Controller',
 
     init: function () {
+
         this.control({
             'mvc-DetailView > button#SaveRecord': {
                 click: this.onSaveButtonClick
+            },
+
+            'mvc-DetailView > button#DeleteRecord': {
+                click: this.onDeleteButtonClick
+            },
+
+            'mvc-DetailView > button#ExportRecord': {
+                click: this.onExportButtonClick
             }
+
         });
     },
 
-    onSaveButtonClick: function (btn) {
-        //get reference to the form
-        var detailView = btn.up('mvc-DetailView');
+    onExportButtonClick: function (btn) {
+        Ext.Msg.alert('Aplicación', 'El registro se exportará.');
+    },
 
-        //get the form inputs
+    onDeleteButtonClick: function (btn) {
+        Ext.Msg.alert('Aplicación', 'El registro se borrará.');
+    },
+
+    onSaveButtonClick: function (btn) {
+        
+        // Se acceden a los valores del form
+        var detailView = btn.up('mvc-DetailView');
         var data = detailView.getValues();
 
-        //see if the record exists
+        // Se obtienen los datos de People que vienen del modelo Person
         var store = Ext.getStore('People');
-        console.log(data.id)
         var record = store.getById(data.id);
 
         if (!record) {
@@ -27,7 +43,7 @@
             return;
         }
 
-        //manually update the record
+        // Se actualiza el registro
         detailView.updateRecord();
     }
 });

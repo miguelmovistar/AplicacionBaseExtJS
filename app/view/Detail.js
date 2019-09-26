@@ -1,7 +1,6 @@
 ﻿Ext.define('MVC.view.Detail', {
     extend: 'Ext.form.Panel',
     xtype: 'mvc-DetailView',
-
     title: 'Detail Panel',
     frame: true,
     padding: 10,
@@ -28,8 +27,19 @@
         },
         {
             xtype: 'button',
-            text: 'Save',
+            text: 'Guardar',
             itemId: 'SaveRecord'
+        },
+        {
+            xtype: 'button',
+            text: 'Borrar',
+            itemId: 'DeleteRecord'
+        },
+        {
+            xtype: 'button',
+            text: 'Exportar',
+            itemId: 'ExportRecord'
         }
+
     ]
 });
