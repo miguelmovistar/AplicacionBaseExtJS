@@ -1,6 +1,6 @@
 ﻿Ext.application({
     name: 'MVC',
-    appFolder: '../app/',
+    appFolder: '../EXTJS_Files/app/',
     views: [
         'MasterView',
         'DetailView'
