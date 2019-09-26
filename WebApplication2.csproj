@@ -128,6 +128,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\view\Master.js" />
+    <Content Include="EXTJS_Files\app\controller\UserController.js" />
+    <Content Include="EXTJS_Files\app\model\UserModel.js" />
+    <Content Include="EXTJS_Files\app\store\UserStore.js" />
+    <Content Include="EXTJS_Files\app\view\user\UserGrid.js" />
+    <Content Include="EXTJS_Files\ListApp.js" />
     <Content Include="Scripts\Application.js" />
     <Content Include="app\controller\Detail.js" />
     <Content Include="app\model\Person.js" />
@@ -4688,6 +4693,7 @@
     <Content Include="extjs\resources\themes\stylesheets\neptune\default\_widgets.scss" />
     <Content Include="extjs\resources\themes\templates\resources\sass\config.rb" />
     <Content Include="extjs\resources\themes\templates\resources\sass\my-ext-theme.scss" />
+    <Content Include="data\data.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\ext-all.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

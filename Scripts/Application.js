@@ -1,6 +1,6 @@
 ﻿Ext.application({
     name: 'MVC',
-
+    appFolder: '../app/',
     views: [
         'Master',
         'Detail'
