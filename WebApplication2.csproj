@@ -127,17 +127,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\view\Master.js" />
+    <Content Include="app\view\MasterView.js" />
+    <Content Include="EXTJS_Files\AltaEmpleado.js" />
     <Content Include="EXTJS_Files\app\controller\UserController.js" />
     <Content Include="EXTJS_Files\app\model\UserModel.js" />
     <Content Include="EXTJS_Files\app\store\UserStore.js" />
     <Content Include="EXTJS_Files\app\view\user\UserGrid.js" />
-    <Content Include="EXTJS_Files\ListApp.js" />
-    <Content Include="Scripts\Application.js" />
-    <Content Include="app\controller\Detail.js" />
-    <Content Include="app\model\Person.js" />
-    <Content Include="app\store\People.js" />
-    <Content Include="app\view\Detail.js" />
+    <Content Include="EXTJS_Files\ListaEmpleados.js" />
+    <Content Include="app\controller\DetailController.js" />
+    <Content Include="app\model\PersonModel.js" />
+    <Content Include="app\store\PeopleStore.js" />
+    <Content Include="app\view\DetailView.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

@@ -1,4 +1,4 @@
-﻿Ext.define('MVC.model.Person', {
+﻿Ext.define('MVC.model.PersonModel', {
     extend: 'Ext.data.Model',
 
     fields: [

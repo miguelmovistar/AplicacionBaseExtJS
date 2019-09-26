@@ -2,16 +2,16 @@
     name: 'MVC',
     appFolder: '../app/',
     views: [
-        'Master',
-        'Detail'
+        'MasterView',
+        'DetailView'
     ],
 
     controllers: [
-        'Detail'
+        'DetailController'
     ],
 
     stores: [
-        'People'
+        'PeopleStore'
     ],
 
     launch: function () {

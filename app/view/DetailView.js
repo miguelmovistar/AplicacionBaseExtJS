@@ -1,4 +1,4 @@
-﻿Ext.define('MVC.view.Detail', {
+﻿Ext.define('MVC.view.DetailView', {
     extend: 'Ext.form.Panel',
     xtype: 'mvc-DetailView',
     title: 'Detail Panel',

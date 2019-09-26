@@ -1,4 +1,4 @@
-﻿Ext.define('MVC.controller.Detail', {
+﻿Ext.define('MVC.controller.DetailController', {
     extend: 'Ext.app.Controller',
 
     init: function () {
