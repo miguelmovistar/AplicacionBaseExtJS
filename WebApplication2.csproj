@@ -127,6 +127,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\Application.js" />
+    <Content Include="app\controller\Detail.js" />
+    <Content Include="app\model\Person.js" />
+    <Content Include="app\store\People.js" />
+    <Content Include="app\view\Detail.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
