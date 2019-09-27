@@ -4263,6 +4263,7 @@
     <Content Include="extjs\resources\themes\images\slate\window\window-default-sides.gif" />
     <Content Include="extjs\resources\themes\stylesheets\neptune\default\accessories\readme.txt" />
     <Content Include="EXTJS_Files\ListaEmpresas.js" />
+    <Content Include="EXTJS_Files\_FilterToJohnson.js" />
     <Content Include="EXTJS_Files_Alfa\app.js" />
     <Content Include="EXTJS_Files_Alfa\app\controller\Users.js" />
     <Content Include="EXTJS_Files_Alfa\app\model\User.js" />
