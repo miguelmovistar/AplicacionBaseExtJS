@@ -23,12 +23,22 @@ Ext.define("ListaEmpresas.view.EmpresasView", {
             text: 'Name',
             dataIndex: 'name',
             locked: true,
-            width: 350
+            width: 350,
+            editor: { // Activa la edicion
+                xtype: 'textfield',
+                allowBlank: false
+            },
+            
         },
         {
             text: 'Address',
             dataIndex: 'address',
-            width: 450
+            width: 450,
+            editor: { // Activa la edicion
+                xtype: 'textfield',
+                allowBlank: false
+            },
+
         },
         {
             text: 'Contact',
@@ -39,5 +49,25 @@ Ext.define("ListaEmpresas.view.EmpresasView", {
             text: 'Telephone',
             dataIndex: 'telephone',
             width: 200
-        }]
+        }],
+
+    
+    selType: 'rowmodel', //'cellmodel', // Permite seleccionar una celda en vez de una fila
+    plugins: { // Activa la edición
+        ptype: 'rowediting', //'cellediting',
+        clicksToEdit: 2
+    },
+
+    enableLocking: true, // Para arrastrar filas
+    viewConfig: { // Para arrastar filas
+        plugins: {
+            ptype: 'gridviewdragdrop',
+            dragText: 'Drag and drop to reorganize'
+        }
+    },
+    
+    
+
+    renderTo: Ext.getBody(),
+
 });
