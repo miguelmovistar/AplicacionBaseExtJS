@@ -4263,6 +4263,13 @@
     <Content Include="extjs\resources\themes\images\slate\window\window-default-sides.gif" />
     <Content Include="extjs\resources\themes\stylesheets\neptune\default\accessories\readme.txt" />
     <Content Include="EXTJS_Files\ListaEmpresas.js" />
+    <Content Include="EXTJS_Files_Alfa\app.js" />
+    <Content Include="EXTJS_Files_Alfa\app\controller\Users.js" />
+    <Content Include="EXTJS_Files_Alfa\app\model\User.js" />
+    <Content Include="EXTJS_Files_Alfa\app\store\Users.js" />
+    <Content Include="EXTJS_Files_Alfa\app\view\user\Add.js" />
+    <Content Include="EXTJS_Files_Alfa\app\view\user\Edit.js" />
+    <Content Include="EXTJS_Files_Alfa\app\view\user\List.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -4700,6 +4707,7 @@
     <Content Include="extjs\resources\themes\templates\resources\sass\my-ext-theme.scss" />
     <Content Include="data\data.json" />
     <Content Include="data\Empresas.json" />
+    <Content Include="data\Socios.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\ext-all.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
